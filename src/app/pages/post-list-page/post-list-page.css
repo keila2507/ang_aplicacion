@@ -1,0 +1,21 @@
+body{
+    background:#f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.list-group-item{
+    border:none;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.list-group-item:last-child{
+    border-bottom:none;
+}
